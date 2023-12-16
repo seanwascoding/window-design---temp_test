@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\DrawingModel\DrawingModel\IGraphics.cs" Link="Model\IGraphics.cs" />
+    <Compile Include="..\..\DrawingModel\DrawingModel\Line.cs" Link="Model\Line.cs" />
+    <Compile Include="..\..\DrawingModel\DrawingModel\Model.cs" Link="Model\Model.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
+
+</Project>
